@@ -1,0 +1,108 @@
+body {
+  background:#0F1848;
+  background-position:;
+  background-repeat:no repeat;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+h1 {
+  color:#0F1848;
+  text-align: center;
+  border:2px solid grey;
+  box-shadow: 1px 1px 2px black;
+  border-radius:8px;
+  background-color:#90FF9F;
+
+}
+input {
+	background-color: #0F1848;
+	box-shadow: 1px 1px 2px lightblue;
+	color:#90FF9F;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+	cursor:pointer;
+	border-top:2px solid #90FF9F;
+}
+/*.spinner {
+	border:10px solid lightgrey;
+	border-top:10px solid lightblue;
+	border-radius:50%;
+	width:80px;
+	height:80px;
+	animation:girar 1s linear infinite;
+}
+@keyframes girar {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+*/
+.inputs {
+	width:100px;
+	height:100px;
+	position:relative;
+}
+/*.effects {
+	width:50px;
+	height:50px;
+	border:20px solid black;
+	border-top-left-radius:100%;
+	border-bottom-left-radius:100%;
+	border-top-right-radius:100%;
+	border-bottom-right-radius:100%;
+	border-top:20px solid lightblue;
+	animation:girar 1s linear infinite;
+}
+@keyframes girar {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+*/
+.logo {
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:transparent;
+}
+button {
+	background-color:#0F1848;
+	box-shadow: 1px 1px 2px #90FF9F;
+	color:#90FF9F;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+	cursor:pointer;
+	border-top:2px solid #90FF9F;
+}
+.mmenu {
+	position:fixed;
+	top:0;
+	right:0;
+	border-left:5px solid grey;
+	border-right:5px solid grey;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px
+}
+h2{
+  color:#90FF9F;
+  text-align: center;
+  
+}
+.login2 {
+	width:300px;
+	height:100px;
+	text-align: center;
+	position:center;
+}
+.apb {
+	width:90px;
+	height:90px;
+	text-align: center;
+	position:center;
+}
